@@ -30,7 +30,7 @@ h = 0.1         # Tamaño del paso
 x, y = runge_kutta(x0, y0, xf, h)
 
 # Encontrar el valor de y en x = 1.6
-index = x.index(xf)
+index = x.index(x[-1])
 y_final = y[index]
 
 # Imprimir resultado
